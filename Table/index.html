@@ -3,6 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Table</title>
+    <style>
+        table,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+
+        }
+
+    </style>
+   
 </head>
+<body>
+    <div class="wrapper">
+        <h1>Sample HTML Table</h1>
+        <table>
+            <caption>
+                A Table to learn html quickly
+            </caption>
+            <colgroup>
+            <col span="" style="background-color: lightcoral; font-family: 'Times New Roman', Times, serif;" >
+            <col span="" style="background-color: paleturquoise; font-family: 'Times New Roman', Times, serif;" >
+        </colgroup>
+        <tr>
+            <td rowspan="2"></td>
+            <td colspan="2">Average</td>
+            <td rowspan="2">Red Eyes</td>
+        </tr>
+
+        <tr>
+            <td>Height</td>
+            <td>Weight</td>
+        </tr>
+
+        <td>Male</td>
+        <td>1.9</td>
+        <td>0.003</td>
+        <td>40%</td>
+        
+        <tr>
+            <td>Female</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+
+        </table>
+        </div>
+</body>
 </html>
